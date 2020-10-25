@@ -1,0 +1,64 @@
+body {
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: white;
+}
+
+a {
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    cursor: default;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+a:hover {
+    border-bottom: 2px solid red;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+}
+
+#divTabButtons {
+    text-align: center;
+}
+
+#divTabContents {
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.tabButton {
+    font-family: 'Syne', sans-serif;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 25px;
+    color: #a6a9ae;
+}
+
+p {
+    margin: 7px;
+}
