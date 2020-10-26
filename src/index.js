@@ -6,7 +6,7 @@ let divContent = document.getElementById('content');
 
 const switchTab = () => {    
     let img = document.createElement('img');
-    img.src = '../images/restaurant.jpeg';
+    img.src = './restaurant.jpeg';
     img.alt = 'Source: https://unsplash.com/s/photos/restaurant';
 
     let divTabButtons = document.createElement('div');
